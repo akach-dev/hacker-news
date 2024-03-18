@@ -2,6 +2,34 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Installation
+
+- Make sure you have Node.js installed on your computer. You can download it from the official Node.js website (https://nodejs.org).
+
+- Install pnpm globally by running the following command:
+```js 
+npm install -g pnpm
+```
+- Clone the "hacker-news" project repository to your local computer
+```js 
+git clone https://github.com/your-username/hacker-news.git
+```
+- Navigate to the project directory.
+```js 
+cd hacker-news
+```
+- Install the project dependencies using pnpm by running the following command:
+```js 
+pnpm install
+```
+
+## Launch
+- Once the dependencies have been successfully installed, you can run the project using the following command:
+```js 
+pnpm dev
+```
+- Open your browser and go to http://localhost:5173 to see the "hacker-news" application running.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
