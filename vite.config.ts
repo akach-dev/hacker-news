@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/hacker-news',
   envPrefix: 'APP_',
   plugins: [react()],
   resolve: {
