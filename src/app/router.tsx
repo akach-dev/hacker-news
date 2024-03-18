@@ -1,4 +1,4 @@
-import { RouteObject, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouteObject, RouterProvider, createHashRouter } from 'react-router-dom'
 
 import { Layout } from '@/layout'
 import { HomePage, StoryPage } from '@/pages'
@@ -8,7 +8,7 @@ const routes: RouteObject[] = [
   { element: <StoryPage />, path: '/story/:id' },
 ]
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     children: routes,
     element: <Layout />,
